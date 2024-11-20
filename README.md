@@ -1,7 +1,3 @@
-Here's the updated version of the README file based on the additional details you provided:
-
----
-
 # 📚 Book Recommender App
 
 A **Streamlit**-based Book Recommender app that allows users to explore popular books, search for specific books, and receive personalized book recommendations based on content similarity and genre-based factors. This app helps users discover new books to read with ease.
@@ -84,24 +80,10 @@ This app uses the following datasets:
 4. Push to the branch (`git push origin feature-name`).
 5. Create a pull request.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-### Screenshots (Optional)
-*Add screenshots here if you like to showcase the UI, e.g., Top 50 Books list, recommendations section, etc.*
-
----
 
 ### Contact
-If you have any questions or suggestions, feel free to contact me at [jayant_kathuria7@gmail.com].
+If you have any questions or suggestions, feel free to contact me at [jayantkathuria7@gmail.com].
 
----
 
 ### Additional Notes:
 - **Planned Dataset Updates:** The dataset will be frequently updated to reflect new book ratings and user reviews. Future improvements include handling genre-based filtering and using a hybrid recommendation model to improve recommendations.
-
----
-
-This updated version includes the datasets you're using and the plans for future enhancements such as genre-based recommendations and user profiles. Let me know if you have any further changes or additions!
