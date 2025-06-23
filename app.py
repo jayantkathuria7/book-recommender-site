@@ -82,7 +82,7 @@ def display_popular_books():
                     st.text(f"Author: {book['Book-Author']}")
                     img = fetch_image_from_url(book['Image-URL-M'])
                     if img:
-                        st.image(img, caption=f"⭐ {np.round(book['avg_ratings'], 2)} | 📊 {book['num_ratings']} ratings", use_column_width=True)
+                        st.image(img, caption=f"⭐ {np.round(book['avg_ratings'], 2)} | 📊 {book['num_ratings']} ratings", use_container_width=True)
                     else:
                         st.write("Image not available")
                     st.markdown("---")
@@ -119,7 +119,7 @@ def recommend_books():
                         st.markdown(f"**📘 {temp_df['Book-Title'].values[0]}** by {temp_df['Book-Author'].values[0]}")
                         img = fetch_image_from_url(temp_df['Image-URL-M'].values[0])
                         if img:
-                            st.image(img, use_column_width=True)
+                            st.image(img, use_container_width=True)
                         else:
                             st.write("Image not available")
                 st.markdown("---")
